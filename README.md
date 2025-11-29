@@ -15,14 +15,13 @@ This pipeline performs processing of RNA-seq data to identify unknown single nuc
 ## Features
 - Modular Nextflow pipeline with clearly separated steps:
   - Read preprocessing and quality control
-  - Alignment to reference genome
-  - Duplicate marking and filtering
+  - Alignment to CD1 reference genome
+  - Custom experimental group combining and merging 
   - SNP calling and variant filtering
-  - Normalization and annotation
   - Supports BU HPC cluster execution.
 - Docker/Singularity container support for reproducibility.
 - Automatic logging and error handling.
-- Scalable to large snRNA-seq datasets.
+- Scalable to large RNA-seq datasets.
 
 ## Requirements
 - Must have a conda environment with nextflow in order to run nextflow
@@ -32,7 +31,7 @@ This pipeline performs processing of RNA-seq data to identify unknown single nuc
  
 ## Installation
   - Clone this repository in the SCC
-  - git clone 'https://github.com/JackSherry6/Waxman-Lab-snRNA-seq-SNP-Calling-Pipeline.git'
+  - git clone 'https://github.com/JackSherry6/cd1-varscan-snp-pipeline.git'
  
 ## Usage
 Basic execution: 
