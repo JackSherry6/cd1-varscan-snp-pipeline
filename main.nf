@@ -81,5 +81,4 @@ workflow {
     SAMTOOLS_PILEUP(pairwise_combinations, params.ref_genome)
 
     VARSCAN(SAMTOOLS_PILEUP.out)
-    
 }
