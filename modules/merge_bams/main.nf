@@ -2,7 +2,7 @@ process MERGE_BAMS {
     label 'process_low'
     conda 'envs/samtools_env.yml'
     tag "${sample}"
-    
+     
     input:
     tuple val(sample), path(bams), path(bais)
     
