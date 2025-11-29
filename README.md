@@ -1,6 +1,6 @@
 # Waxman Lab RNA-seq SNP Calling Pipeline for CD1 Mouse Reference Genome
 
-This project was prompted by my desire to improve the quality of SNP calling from RNA-seq data by using a CD1-specific reference genome. I was tasked with developing a method to accurately detect mutations driving tumorigenesis across the genome from RNA-seq data generated from our outbred CD1 mouse strain. Previously, our lab aligned reads and performed differential expression analyses using the mm9 reference genome; however, this approach was inadequate for identifying polymorphisms in an outbred population. The mm9 reference represents a single, inbred laboratory strain and therefore lacks the genetic diversity present in CD1 mice. As a result, alignment accuracy was reduced, variant calls were unreliable, and many true CD1-specific SNPs were missed. On top of that, the initial variant callers I used did not offer the option to compare control and tumor samples during the variant calling process, which caused additional complications on manually filtering and processing variant data. Therefore I decided to switch to varscan somatic for control vs tumor variant calling. These improvements allowed for more accurate mapping, improved SNP detection, and better representation of the genetic variation inherent to this outbred strain. 
+This project was prompted by my desire to improve the quality of SNP calling from RNA-seq data by using a CD1-specific reference genome (Jung et al., 2023). I was tasked with developing a method to accurately detect mutations driving tumorigenesis across the genome from RNA-seq data generated from our outbred CD1 mouse strain. Previously, our lab aligned reads and performed differential expression analyses using the mm9 reference genome; however, this approach was inadequate for identifying polymorphisms in an outbred population. The mm9 reference represents a single, inbred laboratory strain and therefore lacks the genetic diversity present in CD1 mice. As a result, alignment accuracy was reduced, variant calls were unreliable, and many true CD1-specific SNPs were missed. On top of that, the initial variant callers I used did not offer the option to compare control and tumor samples during the variant calling process, which caused additional complications on manually filtering and processing variant data. Therefore I decided to switch to varscan somatic for control vs tumor variant calling. These improvements allowed for more accurate mapping, improved SNP detection, and better representation of the genetic variation inherent to this outbred strain. 
 
 ## Table of Contents
 1. Features
@@ -10,7 +10,7 @@ This project was prompted by my desire to improve the quality of SNP calling fro
 5. Configuration
 6. Input and Output
 7. Contributing
-8. License
+8. References
 
 ## Features
 - Modular Nextflow pipeline with clearly separated steps:
@@ -59,3 +59,7 @@ Basic execution:
 
 ## Contributing 
 - Email me at jgsherry@bu.edu for additional information or contributing information
+
+## References
+
+Jung, Y. H., Wang, H.-L. V., Ali, S., Corces, V. G., … & Kremsky, I. (2023). Characterization of a strain-specific CD-1 reference genome reveals potential inter- and intra-strain functional variability. BMC Genomics, 24, Article 437. https://doi.org/10.1186/s12864-023-09523-x
