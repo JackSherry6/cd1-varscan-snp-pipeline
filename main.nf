@@ -63,20 +63,17 @@ workflow {
     MERGE_BAMS(grouped_bams)
 
     merged_bams = MERGE_BAMS.out
+    control_bams = merged_bams
+        .filter { group, bam, bai -> group.contains('control') }
+    
+    treatment_bams = merged_bams
+        .filter { group, bam, bai -> !group.contains('control') }
 
-    pairwise_combinations = merged_bams
-    .combine(merged_bams)
-    .filter { group1, bam1, bai1, group2, bam2, bai2 ->
-        group1 != group2  
-    }
-    .map { group1, bam1, bai1, group2, bam2, bai2 ->
-        if (group2.contains('control') && !group1.contains('control')) {
-            ["${group2}_vs_${group1}", group2, bam2, bai2, group1, bam1, bai1]
-        } else {
+    pairwise_combinations = control_bams
+        .combine(treatment_bams)
+        .map { group1, bam1, bai1, group2, bam2, bai2 ->
             ["${group1}_vs_${group2}", group1, bam1, bai1, group2, bam2, bai2]
-        }
-    }
-    .unique()  
+        } 
     
     SAMTOOLS_PILEUP(pairwise_combinations, params.ref_genome)
 
