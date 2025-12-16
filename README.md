@@ -2,6 +2,8 @@
 
 This project was prompted by my desire to improve the quality of SNP calling from RNA-seq data by using a CD1-specific reference genome (Jung et al., 2023). I was tasked with developing a method to accurately detect mutations driving tumorigenesis across the genome from RNA-seq data generated from our outbred CD1 mouse strain. Previously, our lab aligned reads and performed differential expression analyses using the mm9 reference genome; however, this approach was inadequate for identifying polymorphisms in an outbred population. The mm9 reference represents a single, inbred laboratory strain and therefore lacks the genetic diversity present in CD1 mice. As a result, alignment accuracy was reduced, variant calls were unreliable, and many true CD1-specific SNPs were missed. On top of that, the initial variant callers I used did not offer the option to compare control and tumor samples during the variant calling process, which caused additional complications on manually filtering and processing variant data. Therefore I decided to switch to varscan somatic for control vs tumor variant calling. These improvements allowed for more accurate mapping, improved SNP detection, and better representation of the genetic variation inherent to this outbred strain. 
 
+* Most recent update (12/16/25): Modified the pipeline for per replicate experimental classification. Each individual experimental sample is compared to a single consensus file based on the control samples. 
+
 ## Table of Contents
 1. Features
 2. Requirements
