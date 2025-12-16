@@ -35,47 +35,35 @@ workflow {
 
     BAM_INDEX(SAMTOOLS_SORT.out)
 
-    sample_groups = Channel
-        .fromPath(params.sample_names)
-        .splitCsv(header: true)
-        .map { row -> [row.SampleID, row.Group] }
-
-    bam_channel = BAM_INDEX.out
-
-    bam_with_clean_id = bam_channel
-        .map { sample_id, bam, bai ->
-            def clean_id = sample_id.tokenize('_').last()
-            [clean_id, sample_id, bam, bai]
+    //split bams into control and experimental
+    BAM_INDEX.out
+        .branch {
+            control: it[0].startsWith('Control')
+            exp: true
         }
+        .set { branched_channels }
 
-    bams_with_groups = bam_with_clean_id
-        .join(sample_groups)
-        .map { clean_id, full_sample_id, bam, bai, group ->
-            [group, full_sample_id, bam, bai]
-        }
+    control_ch = branched_channels.control
+    exp_ch = branched_channels.exp
 
-    grouped_bams = bams_with_groups
-        .groupTuple()
-        .map { group, sample_ids, bams, bais ->
-            [group, bams, bais]
-        }
+    control_ch
+        .map { sample, bam, bai ->
+        def prefix = sample.replaceAll(/\d+$/, '')  // Extract the Control prefix without sample num
+        [prefix, bam, bai]
+    }
+    .groupTuple() 
+    .set { all_controls_ch }
 
-    MERGE_BAMS(grouped_bams)
+    MERGE_BAMS(all_controls_ch)
 
-    merged_bams = MERGE_BAMS.out
-    control_bams = merged_bams
-        .filter { group, bam, bai -> group.contains('control') }
+    exp_ch
+        .combine(MERGE_BAMS.out)
+        .set { paired_ch }
     
-    treatment_bams = merged_bams
-        .filter { group, bam, bai -> !group.contains('control') }
+    SAMTOOLS_PILEUP(paired_ch, params.ref_genome)
 
-    pairwise_combinations = control_bams
-        .combine(treatment_bams)
-        .map { group1, bam1, bai1, group2, bam2, bai2 ->
-            ["${group1}_vs_${group2}", group1, bam1, bai1, group2, bam2, bai2]
-        } 
-    
-    SAMTOOLS_PILEUP(pairwise_combinations, params.ref_genome)
+    SAMTOOLS_PILEUP.out.view()
 
     VARSCAN(SAMTOOLS_PILEUP.out)
+    
 }
