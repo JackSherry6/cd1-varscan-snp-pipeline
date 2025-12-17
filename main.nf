@@ -47,12 +47,9 @@ workflow {
     exp_ch = branched_channels.exp
 
     control_ch
-        .map { sample, bam, bai ->
-        def prefix = sample.replaceAll(/\d+$/, '')  // Extract the Control prefix without sample num
-        [prefix, bam, bai]
-    }
-    .groupTuple() 
-    .set { all_controls_ch }
+        .map { sample, bam, bai -> ['merged_controls', bam, bai] }
+        .groupTuple() 
+        .set { all_controls_ch }
 
     MERGE_BAMS(all_controls_ch)
 
