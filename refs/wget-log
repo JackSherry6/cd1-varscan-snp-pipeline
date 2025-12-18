@@ -1,0 +1,11 @@
+--2025-11-12 17:26:15--  https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE75070
+Resolving www.ncbi.nlm.nih.gov (www.ncbi.nlm.nih.gov)... 130.14.29.110, 2607:f220:41e:4290::110
+Connecting to www.ncbi.nlm.nih.gov (www.ncbi.nlm.nih.gov)|130.14.29.110|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?acc=GSE75070’
+
+index.html?acc=GSE75070                                    [<=>                                                                                                                         ]       0  --.-KB/s               index.html?acc=GSE75070                                    [ <=>                                                                                                                        ]  61.78K  --.-KB/s    in 0.03s   
+
+2025-11-12 17:26:15 (2.18 MB/s) - ‘index.html?acc=GSE75070’ saved [63259]
+

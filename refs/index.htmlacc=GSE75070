@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Download data  for GSE75070 - GEO - NCBI</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="geo" />
+    <meta name="keywords" content="NCBI, national institutes of health, nih, database, archive, central, bioinformatics,          biomedicine, geo, gene, expression, omnibus, chips, microarrays, oligonucleotide, array, sage, CGH" />
+    <meta name="description" content="Gene Expression Omnibus (GEO) is a database repository of high throughput          gene expression data and hybridization arrays, chips, microarrays." />
+    <meta name="ncbi_app" content="geo" />
+    <meta name="ncbi_pdid" content="download" />
+    <meta name="ncbi_phid" content="0C42FB5A915098710000000000000001" />
+    <meta name="ncbi_sessionid" content="0C42FB5A91509871_0000SID" />
+    <link rel="stylesheet" type="text/css" href="/geo/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/geo/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="download.css" />
+    <script type="text/javascript" src="/core/jig/1.15.10/js/jig.min.js"></script>
+    <script type="text/javascript" src="/geo/js/dd_menu.js"></script>
+    <script type="text/javascript">
+        jQuery.getScript("/core/alerts/alerts.js", function () {
+            galert(['#crumbs_login_bar', 'body &gt; *:nth-child(1)'])
+        });
+    </script>
+  </head>
+  <body class="download">
+    <div id="all">
+      <div id="page">
+        <div xmlns="" id="header">
+    <div id="ncbi_logo">
+        <a href="/">
+            <img src="/geo/img/ncbi_logo.gif" alt="NCBI Logo" />
+        </a>
+    </div>
+    <div id="geo_logo">
+        <a href="/geo/"><img src="/geo/img/geo_main.gif" alt="GEO Logo" /></a>
+    </div>
+</div>
+        <div xmlns="" id="nav_bar">
+    <ul id="geo_nav_bar">
+        <li><a href="#">GEO Publications</a>
+            <ul class="sublist">
+                <li><a href="/geo/info/GEOHandoutFinal.pdf">Handout</a></li>
+                <li><a href="/pmc/articles/PMC10767856/">NAR 2024 (latest)</a></li>
+                <li><a href="/pmc/articles/PMC99122/">NAR 2002 (original)</a></li>
+                <li><a href="/pmc/?term=10767856,4944384,3531084,3341798,3013736,2686538,2270403,1669752,1619900,1619899,539976,99122">All publications</a></li>
+            </ul>
+        </li>
+        <li><a href="/geo/info/faq.html">FAQ</a></li>
+        <li><a href="/geo/info/MIAME.html" title="Minimum Information About a Microarray Experiment">MIAME</a></li>
+        <li><a href="mailto:geo@ncbi.nlm.nih.gov">Email GEO</a></li>
+    </ul>
+</div>
+        <div id="crumbs_login_bar"><a title="NCBI home page" href="/">NCBI</a> » 
+        <a id="curr_page" title="GEO home page" href="/geo/">GEO</a> »
+        <a href="/geo/download/">Download data</a><span id="login_status"><a href="/geo/submitter" title="Click here to login.">Login</a></span></div>
+        <div id="content">
+          <h1>Download data for <a href="/geo/query/acc.cgi?acc=GSE75070">GSE75070</a></h1>
+          <div id="downloads">
+            <p>
+                                
+                                Information about GEO data organization is provided in the <a href="/geo/info/overview.html">GEO overview</a>.
+                                GEO <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/">FTP site</a> structure and available formats are described in 
+                                <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/README.txt">README.txt</a>. Additional download options are described at
+                                <a href="/geo/info/download.html">Download GEO data</a>.
+                            </p>
+            <h2>Submitter-supplied data<a href="/geo/info/download.html" class="help_link" target="_blank">?</a></h2>
+            <div class="section">
+              <h2>Series SOFT file</h2>
+              <ul>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/soft/GSE75070_family.soft.gz" name="download_soft" id="download_soft">GSE75070_family.soft.gz</a>
+                  <span class="fsize">6.4 Kb</span>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h2>Series MINiML file</h2>
+              <ul>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/miniml/GSE75070_family.xml.tgz" name="download_miniml" id="download_miniml">GSE75070_family.xml.tgz</a>
+                  <span class="fsize">6.8 Kb</span>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h2>Series Matrix file</h2>
+              <ul>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/matrix/GSE75070_series_matrix.txt.gz" name="download_matrix" id="download_matrix">GSE75070_series_matrix.txt.gz</a>
+                  <span class="fsize">6.4 Kb</span>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h2>Series supplementary data</h2>
+              <p></p>
+              <ul>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr10_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr10_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">2.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr10_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr10_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">5.8 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr11_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr11_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">2.0 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr11_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr11_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">4.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr12_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr12_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">2.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr12_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr12_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">5.8 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr13_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr13_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">1.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr13_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr13_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">3.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr14_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr14_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">1.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr14_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr14_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">4.2 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr15_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr15_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">1.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr15_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr15_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">2.7 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr16_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr16_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">831.0 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr16_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr16_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">2.0 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr17_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr17_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">960.7 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr17_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr17_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">2.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr18_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr18_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">836.7 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr18_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr18_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">1.9 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr19_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr19_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">505.0 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr19_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr19_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">1.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr1_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr1_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">5.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr1_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr1_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">11.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr20_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr20_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">645.4 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr20_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr20_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">1.9 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr21_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr21_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">223.0 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr21_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr21_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">653.9 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr22_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr22_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">184.2 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr22_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr22_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">479.1 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr2_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr2_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">7.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr2_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr2_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">16.2 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr3_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr3_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">5.2 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr3_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr3_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">11.7 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr4_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr4_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">4.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr4_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr4_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">9.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr5_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr5_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">4.6 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr5_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr5_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">10.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr6_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr6_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">3.7 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr6_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr6_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">8.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr7_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr7_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">3.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr7_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr7_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">7.8 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr8_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr8_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">3.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr8_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr8_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">8.2 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr9_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr9_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">1.7 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chr9_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chr9_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">4.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chrX_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chrX_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">2.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_chrX_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_chrX_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">5.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-1000000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-1000000-iced.matrix.gz</a>
+                  <span class="fsize">18.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr10_chr10_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr10_chr10_cis.matrix.gz</a>
+                  <span class="fsize">622.4 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr11_chr11_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr11_chr11_cis.matrix.gz</a>
+                  <span class="fsize">592.3 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr12_chr12_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr12_chr12_cis.matrix.gz</a>
+                  <span class="fsize">613.9 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr13_chr13_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr13_chr13_cis.matrix.gz</a>
+                  <span class="fsize">339.7 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr14_chr14_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr14_chr14_cis.matrix.gz</a>
+                  <span class="fsize">290.0 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr15_chr15_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr15_chr15_cis.matrix.gz</a>
+                  <span class="fsize">247.3 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr16_chr16_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr16_chr16_cis.matrix.gz</a>
+                  <span class="fsize">226.0 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr17_chr17_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr17_chr17_cis.matrix.gz</a>
+                  <span class="fsize">224.1 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr18_chr18_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr18_chr18_cis.matrix.gz</a>
+                  <span class="fsize">208.7 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr19_chr19_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr19_chr19_cis.matrix.gz</a>
+                  <span class="fsize">119.8 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr1_chr1_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr1_chr1_cis.matrix.gz</a>
+                  <span class="fsize">1.6 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr20_chr20_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr20_chr20_cis.matrix.gz</a>
+                  <span class="fsize">137.9 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr21_chr21_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr21_chr21_cis.matrix.gz</a>
+                  <span class="fsize">52.8 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr22_chr22_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr22_chr22_cis.matrix.gz</a>
+                  <span class="fsize">47.9 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr2_chr2_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr2_chr2_cis.matrix.gz</a>
+                  <span class="fsize">1.9 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr3_chr3_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr3_chr3_cis.matrix.gz</a>
+                  <span class="fsize">1.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr4_chr4_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr4_chr4_cis.matrix.gz</a>
+                  <span class="fsize">1.2 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr5_chr5_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr5_chr5_cis.matrix.gz</a>
+                  <span class="fsize">1.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr6_chr6_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr6_chr6_cis.matrix.gz</a>
+                  <span class="fsize">972.3 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr7_chr7_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr7_chr7_cis.matrix.gz</a>
+                  <span class="fsize">851.9 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr8_chr8_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr8_chr8_cis.matrix.gz</a>
+                  <span class="fsize">716.0 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr9_chr9_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chr9_chr9_cis.matrix.gz</a>
+                  <span class="fsize">459.9 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chrX_chrX_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shGFP_hg19_genome_C-250000-iced_chrX_chrX_cis.matrix.gz</a>
+                  <span class="fsize">741.4 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr10_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr10_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">2.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr10_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr10_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">5.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr11_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr11_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">1.9 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr11_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr11_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">4.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr12_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr12_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">2.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr12_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr12_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">5.7 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr13_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr13_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">1.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr13_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr13_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">3.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr14_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr14_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">1.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr14_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr14_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">3.8 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr15_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr15_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">1007.2 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr15_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr15_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">2.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr16_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr16_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">852.2 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr16_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr16_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">2.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr17_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr17_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">944.6 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr17_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr17_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">2.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr18_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr18_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">800.7 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr18_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr18_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">1.8 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr19_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr19_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">496.9 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr19_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr19_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">1.2 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr1_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr1_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">5.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr1_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr1_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">11.8 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr20_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr20_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">635.8 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr20_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr20_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">1.8 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr21_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr21_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">225.7 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr21_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr21_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">651.0 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr22_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr22_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">188.5 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr22_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr22_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">492.8 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr2_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr2_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">7.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr2_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr2_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">15.9 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr3_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr3_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">5.6 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr3_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr3_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">12.9 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr4_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr4_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">4.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr4_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr4_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">8.8 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr5_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr5_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">4.5 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr5_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr5_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">10.2 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr6_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr6_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">3.7 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr6_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr6_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">8.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr7_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr7_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">3.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr7_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr7_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">7.7 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr8_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr8_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">3.0 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr8_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr8_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">7.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr9_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr9_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">1.8 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr9_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chr9_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">4.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chrX_C-100000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chrX_C-100000-iced.matrix.gz</a>
+                  <span class="fsize">2.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_chrX_C-40000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_chrX_C-40000-iced.matrix.gz</a>
+                  <span class="fsize">5.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-1000000-iced.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-1000000-iced.matrix.gz</a>
+                  <span class="fsize">18.4 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr10_chr10_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr10_chr10_cis.matrix.gz</a>
+                  <span class="fsize">615.5 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr11_chr11_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr11_chr11_cis.matrix.gz</a>
+                  <span class="fsize">584.8 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr12_chr12_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr12_chr12_cis.matrix.gz</a>
+                  <span class="fsize">612.5 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr13_chr13_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr13_chr13_cis.matrix.gz</a>
+                  <span class="fsize">341.3 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr14_chr14_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr14_chr14_cis.matrix.gz</a>
+                  <span class="fsize">291.2 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr15_chr15_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr15_chr15_cis.matrix.gz</a>
+                  <span class="fsize">244.1 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr16_chr16_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr16_chr16_cis.matrix.gz</a>
+                  <span class="fsize">226.5 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr17_chr17_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr17_chr17_cis.matrix.gz</a>
+                  <span class="fsize">223.3 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr18_chr18_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr18_chr18_cis.matrix.gz</a>
+                  <span class="fsize">207.1 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr19_chr19_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr19_chr19_cis.matrix.gz</a>
+                  <span class="fsize">119.4 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr1_chr1_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr1_chr1_cis.matrix.gz</a>
+                  <span class="fsize">1.6 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr20_chr20_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr20_chr20_cis.matrix.gz</a>
+                  <span class="fsize">137.5 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr21_chr21_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr21_chr21_cis.matrix.gz</a>
+                  <span class="fsize">52.9 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr22_chr22_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr22_chr22_cis.matrix.gz</a>
+                  <span class="fsize">48.2 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr2_chr2_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr2_chr2_cis.matrix.gz</a>
+                  <span class="fsize">1.9 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr3_chr3_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr3_chr3_cis.matrix.gz</a>
+                  <span class="fsize">1.3 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr4_chr4_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr4_chr4_cis.matrix.gz</a>
+                  <span class="fsize">1.2 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr5_chr5_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr5_chr5_cis.matrix.gz</a>
+                  <span class="fsize">1.1 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr6_chr6_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr6_chr6_cis.matrix.gz</a>
+                  <span class="fsize">975.9 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr7_chr7_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr7_chr7_cis.matrix.gz</a>
+                  <span class="fsize">852.1 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr8_chr8_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr8_chr8_cis.matrix.gz</a>
+                  <span class="fsize">718.8 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr9_chr9_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chr9_chr9_cis.matrix.gz</a>
+                  <span class="fsize">464.8 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chrX_chrX_cis.matrix.gz" name="download_suppl" id="download_suppl">GSE75070_HiCStein-MCF7-shRUNX1_hg19_genome_C-250000-iced_chrX_chrX_cis.matrix.gz</a>
+                  <span class="fsize">742.4 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_MCF7_RUNX1_ChIPseq_peaks.bed.gz" name="download_suppl" id="download_suppl">GSE75070_MCF7_RUNX1_ChIPseq_peaks.bed.gz</a>
+                  <span class="fsize">40.3 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_MCF7_shNS_shRUNX1_genes_expression_expected_count.tsv.gz" name="download_suppl" id="download_suppl">GSE75070_MCF7_shNS_shRUNX1_genes_expression_expected_count.tsv.gz</a>
+                  <span class="fsize">543.5 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75070/suppl/GSE75070_MCF7_shRUNX1_shNS_RNAseq_log2_foldchange.txt.gz" name="download_suppl" id="download_suppl">GSE75070_MCF7_shRUNX1_shNS_RNAseq_log2_foldchange.txt.gz</a>
+                  <span class="fsize">383.6 Kb</span>
+                </li>
+              </ul>
+            </div>
+            <h2>NCBI-generated data<a href="/geo/info/rnaseqcounts.html" class="help_link" target="_blank">?</a><span class="beta">BETA</span></h2>
+            <div class="section">
+              <h2>Series RNA-seq raw counts matrix</h2>
+              <p>Raw count matrices may be suitable for input into differential expression analysis tools.</p>
+              <ul>
+                <li xmlns="">
+                  <a href="/geo/download/?type=rnaseq_counts&amp;acc=GSE75070&amp;format=file&amp;file=GSE75070_raw_counts_GRCh38.p13_NCBI.tsv.gz" name="download_raw_counts" id="download_raw_counts">GSE75070_raw_counts_GRCh38.p13_NCBI.tsv.gz</a>
+                  <span class="fdate">2022-12-16</span>
+                  <span class="fsize">338.1 Kb</span>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h2>Series RNA-seq normalized counts matrix</h2>
+              <p>Normalized count matrices may be suitable for analyzing and visualizing gene expression abundance.</p>
+              <ul>
+                <li>
+                  <li xmlns="">
+                    <a href="/geo/download/?type=rnaseq_counts&amp;acc=GSE75070&amp;format=file&amp;file=GSE75070_norm_counts_FPKM_GRCh38.p13_NCBI.tsv.gz" name="download_norm_counts_fpkm" id="download_norm_counts_fpkm">GSE75070_norm_counts_FPKM_GRCh38.p13_NCBI.tsv.gz</a>
+                    <span class="fdate">2022-12-16</span>
+                    <span class="fsize">534.9 Kb</span>
+                  </li>
+                </li>
+                <li>
+                  <li xmlns="">
+                    <a href="/geo/download/?type=rnaseq_counts&amp;acc=GSE75070&amp;format=file&amp;file=GSE75070_norm_counts_TPM_GRCh38.p13_NCBI.tsv.gz" name="download_norm_counts_tpm" id="download_norm_counts_tpm">GSE75070_norm_counts_TPM_GRCh38.p13_NCBI.tsv.gz</a>
+                    <span class="fdate">2022-12-16</span>
+                    <span class="fsize">532.5 Kb</span>
+                  </li>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h2>Human gene annotation table</h2>
+              <p>
+                                                Gene annotation information is intended to be used in conjunction with raw and normalized count matrices.<br />
+                                                The <em>Homo sapiens</em> Annotation Release 109.20190905 was used for gene annotation.
+                                            </p>
+              <ul>
+                <li>
+                  <a href="/geo/download/?format=file&amp;type=rnaseq_counts&amp;file=Human.GRCh38.p13.annot.tsv.gz">Human.GRCh38.p13.annot.tsv.gz</a>
+                  <span class="fdate">2022-11-08</span>
+                  <span class="fsize">4.2 Mb</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div xmlns="" id="footer">
+    <span class="helpbar">|<a href="https://www.nlm.nih.gov"> NLM </a>|<a href="https://www.nih.gov"> NIH </a>|<a href="mailto:geo@ncbi.nlm.nih.gov"> Email GEO </a>|<a href="/geo/info/disclaimer.html"> Disclaimer </a>|<a href="https://www.nlm.nih.gov/accessibility.html"> Accessibility </a>|<a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html"> HHS Vulnerability Disclosure </a>|
+    </span>
+</div>
+    </div>
+    <script type="text/javascript" src="/portal/portal3rc.fcgi/rlib/js/InstrumentNCBIBaseJS/InstrumentPageStarterJS.js"></script>
+  </body>
+</html>
+
