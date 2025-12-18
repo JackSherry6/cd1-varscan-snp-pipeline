@@ -1,4 +1,3 @@
-include {PARSE_GTF} from './modules/parse_gtf'
 include {FASTQC} from './modules/fastqc'
 include {STAR_INDEX} from './modules/star_index'
 include {STAR_ALIGN} from './modules/star_align'
@@ -9,6 +8,7 @@ include {BAM_INDEX} from './modules/bam_index'
 include {MERGE_BAMS} from './modules/merge_bams'
 include {SAMTOOLS_PILEUP} from './modules/samtools_pileup'
 include {VARSCAN} from './modules/varscan_somatic'
+include {FILTER_VARIANTS} from './modules/filter_variants'
 
 workflow {
     Channel.fromPath(params.samplesheet)
@@ -59,8 +59,8 @@ workflow {
     
     SAMTOOLS_PILEUP(paired_ch, params.ref_genome)
 
-    SAMTOOLS_PILEUP.out.view()
-
     VARSCAN(SAMTOOLS_PILEUP.out)
+
+    FILTER_VARIANTS(VARSCAN.out)
     
 }
